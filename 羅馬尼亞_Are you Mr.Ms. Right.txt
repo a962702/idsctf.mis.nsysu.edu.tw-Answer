@@ -1,0 +1,5 @@
+rotartsinimda
+
+===
+
+FLAG{if_3l53_i5_50_53cur3}

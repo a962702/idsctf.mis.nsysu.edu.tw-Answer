@@ -1,0 +1,8 @@
+var k = CryptoJS.SHA256("\x93\x39\x02\x49\x83\x02\x82\xf3\x23\xf8\xd3\x13\x37");
+
+$("#cuser").val("h4x0r");
+$("#cpass").val(CryptoJS.AES.decrypt("ob1xQz5ms9hRkPTx+ZHbVg==", CryptoJS.enc.Hex.parse(k.toString().substring(0,32)), { iv: CryptoJS.enc.Hex.parse(k.toString().substring(32,64)) }).toString(CryptoJS.enc.Utf8));
+
+===
+
+FLAG{SOOOOOO_Many_JavaScript_Crpt0_To0ls}
